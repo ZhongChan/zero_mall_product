@@ -3,8 +3,8 @@ package logic
 import (
 	"context"
 
-	"zero-mall/zero_mall_product/rpc/add/add"
-	"zero-mall/zero_mall_product/rpc/add/internal/svc"
+	"zero_mall_product/rpc/add/add"
+	"zero_mall_product/rpc/add/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/logx"
 )

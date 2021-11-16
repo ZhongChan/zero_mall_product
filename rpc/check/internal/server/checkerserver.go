@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"zero-mall/zero_mall_product/rpc/check/check"
-	"zero-mall/zero_mall_product/rpc/check/internal/logic"
-	"zero-mall/zero_mall_product/rpc/check/internal/svc"
+	"zero_mall_product/rpc/check/check"
+	"zero_mall_product/rpc/check/internal/logic"
+	"zero_mall_product/rpc/check/internal/svc"
 )
 
 type CheckerServer struct {

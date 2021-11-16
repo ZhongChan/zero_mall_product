@@ -1,4 +1,4 @@
-module zero-mall/zero_mall_product
+module zero_mall_product
 
 go 1.16
 

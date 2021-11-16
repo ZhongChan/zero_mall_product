@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"zero-mall/zero_mall_product/rpc/add/add"
-	"zero-mall/zero_mall_product/rpc/add/internal/logic"
-	"zero-mall/zero_mall_product/rpc/add/internal/svc"
+	"zero_mall_product/rpc/add/add"
+	"zero_mall_product/rpc/add/internal/logic"
+	"zero_mall_product/rpc/add/internal/svc"
 )
 
 type AdderServer struct {

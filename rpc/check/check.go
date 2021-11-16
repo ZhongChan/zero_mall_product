@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"zero-mall/zero_mall_product/rpc/check/check"
-	"zero-mall/zero_mall_product/rpc/check/internal/config"
-	"zero-mall/zero_mall_product/rpc/check/internal/server"
-	"zero-mall/zero_mall_product/rpc/check/internal/svc"
+	"zero_mall_product/rpc/check/check"
+	"zero_mall_product/rpc/check/internal/config"
+	"zero_mall_product/rpc/check/internal/server"
+	"zero_mall_product/rpc/check/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/conf"
 	"github.com/tal-tech/go-zero/core/service"

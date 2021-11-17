@@ -28,6 +28,7 @@ func main() {
 
 	s := zrpc.MustNewServer(c.RpcServerConf, func(grpcServer *grpc.Server) {
 		add.RegisterAdderServer(grpcServer, srv)
+		reflection.Register(grpcServer)
 
 		switch c.Mode {
 		case service.DevMode, service.TestMode:
